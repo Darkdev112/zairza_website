@@ -97,7 +97,7 @@ const Project = () => {
       </div>
       <div className="event_card" style={{ marginBottom: "1rem" }} >
         {filteredProject.map((data, id) => {
-          return <Card data={data} key={id} width="360px" height="450px" />
+          return <Card data={data} key={id} width="360px" height="auto" />
         })}
       </div>
     </div>

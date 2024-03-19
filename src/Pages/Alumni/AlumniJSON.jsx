@@ -3,13 +3,13 @@ const alumniData=[
         detailNo:1,
         img:require("../../Assets/images/alumnis/Frame 7534.png"),
         title: "Prachetas Padhi",
-        desc: "Batch (2023)",
+        desc: "Convenor",
     },
     {
         detailNo:2,
         img:require("../../Assets/images/alumnis/Frame 7535.png"),
         title: "Shuvam Kumar Panda",
-        desc: "Batch (2023)",
+        desc: "Coordinator",
     },
     {
         detailNo:3,
@@ -81,12 +81,12 @@ const alumniData=[
         desc: "Batch (2023)",
     },{
         detailNo:19,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/alumnis/DeepakPatra (1).jpeg"),
         title: "Deepak Patra",
         desc: "Batch (2023)",
     },{
         detailNo:34,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/alumnis/DeepakPatra (2).jpeg"),
         title: "Deepak Sahoo",
         desc: "Batch (2023)",   
     },{

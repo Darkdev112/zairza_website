@@ -1,18 +1,20 @@
+
 .card__container{
     font-family: 'Gilroy-Light';
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     box-sizing: border-box;
     box-shadow:0.1rem 0.25rem 0.5rem #C4C4C4;
     .card__image{
         object-fit: contain;
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
     }
     .card__content{
         padding:2rem 1.5rem;
         display: flex;
         flex-direction: column;
         gap:0.5rem;
+        border-radius:0 0 10px 10px;
     }
     .card__dtp{
         display: flex;

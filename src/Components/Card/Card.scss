@@ -9,7 +9,7 @@
         border-radius: 10px;
     }
     .card__content{
-        padding:1rem 1.5rem;
+        padding:2rem 1.5rem;
         display: flex;
         flex-direction: column;
         gap:0.5rem;
@@ -52,5 +52,13 @@
         border-radius: 50%;
         background-color: #003685;
         padding:3px 5px 0.5px 5px;
+    }
+    .card__desc{
+        word-break: break-all;
+    }
+}
+@media(max-width:450px){
+    .card__content{
+        padding:1rem 1.5rem;
     }
 }

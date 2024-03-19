@@ -7,46 +7,43 @@ import Card from "../../Components/Card/Card";
 const Event = () => {
   const upcomingEventData = [
     {
+      id: "u1",
       img: require("../../Assets/images/card/c-1.png"),
-      title: "Lorem ipsum dolor sit amet.",
+      title: "Perception",
       desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
-      date: "30th july 2023",
-      time: "4:57 AM",
+      date: "20th March 2024",
+      time: "--/--",
       place: "Zairza",
     },
     {
+      id: "u2",
       img: require("../../Assets/images/card/c-2.png"),
-      title: "Lorem ipsum dolor sit amet.",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
-      date: "30th july 2023",
-      time: "4:57 AM",
-      place: "Zairza",
-    },
-    {
-      img: require("../../Assets/images/card/c-3.png"),
-      title: "Lorem ipsum dolor sit amet.",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
-      date: "30th july 2023",
-      time: "4:57 AM",
+      title: "Skills++",
+      desc: "It is 1.5-month upskilling program conducted by Zairza every year (for last 6 years) for the students.",
+      date: "--/--/--",
+      time: "--:--",
       place: "Zairza",
     },
   ];
 
   const pastEventData = [
     {
+      id: "p1",
       img: require("../../Assets/images/card/c-1.png"),
-      title: "Lorem ipsum dolor sit amet.",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+      title: "Skills++",
+      desc: "It is 1.5-month upskilling program conducted by Zairza every year (for last 6 years) for the students.",
     },
     {
+      id: "p2",
       img: require("../../Assets/images/card/c-2.png"),
-      title: "Lorem ipsum dolor sit amet.",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+      title: "GSW Sessions",
+      desc: "This was a set of 16 exclusive introductory sessions conducted for the first years, where they were introduced into various domains.",
     },
     {
+      id: "p3",
       img: require("../../Assets/images/card/c-3.png"),
-      title: "Lorem ipsum dolor sit amet.",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+      title: "Zairzest 3.0",
+      desc: "It is the highly anticipated annual tech fest brought to you by Zairza.",
     },
   ];
 

@@ -21,7 +21,7 @@ const Card = ({ data,width,height,alumniBackground,alumniColor}) => {
       <div className="card__content" style={{backgroundColor:alumniBackground,color:alumniColor}} >
         <div className="card__title">{data.title}</div>
         <div className="card__desc_box">
-          <div className="card__desc">{data.desc ? data.desc.substring(0,79) : ""}...</div>
+          <div className="card__desc">{data.desc ? data.desc.substring(0,79) : ""}</div>
           {data.detailNo && (
             <div className="card__desc_icon">
               <MailOutlineRoundedIcon style={{color:"white"}} />

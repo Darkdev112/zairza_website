@@ -1,82 +1,10 @@
 import React from 'react'
 import "../../styles/common.style.scss";
 import Card from '../../Components/Card/Card'
+import alumniData from './AlumniJSON';
 
 const Alumni = () => {
-    const alumniData=[
-        {
-            detailNo:1,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:2,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:3,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:4,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:5,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:6,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:7,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:8,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:9,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:10,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:11,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-        {
-            detailNo:12,
-            img:require("../../Assets/images/blogs-details-img-1.png"),
-            title: "Gunjan Giri",
-            desc: "Coordinator",
-        },
-     ]
+    
   return (
     <div className='event__container'>
         <div className="alumni_top_box">
@@ -87,7 +15,7 @@ const Alumni = () => {
         </div>
         <div className="alumni_card">
         {alumniData.map((details,id)=>{
-            return <Card data={details} key={id} width="270px" height="360px" alumniBackground="#00255C" borderBottomLeft="none" borderBottomRight="none" alumniColor="white" />
+            return <Card data={details} key={id} width="270px" alumniBackground="#00255C" borderBottomLeft="none" borderBottomRight="none" alumniColor="white" />
         })}
         </div>
     </div>

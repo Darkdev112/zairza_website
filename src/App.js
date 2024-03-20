@@ -44,7 +44,7 @@ function App() {
         <Route path="/blogs" element={<Blog/>} />
         <Route path="/blog-details" element={<BlogDetails/>} />
         <Route path="/events" element={<Event/>} />
-        <Route path="event-details" element={<EventDetails/>} />
+        <Route path="/events/:event_id" element={<EventDetails/>} />
         <Route path="/about" element={<AboutUs/>} />
      
         {/* <Route path="/login" element={<Login/>} />

@@ -66,8 +66,16 @@ body {
             .preLink {
                 color: #1071FF;
 
+                a{
+                    margin-left: 5px;
+                }
+                p{
+                    margin-left: 5px;
+                }
+
                 a:visited {
                     color: #1071FF;
+
                 }
             }
         }
@@ -121,6 +129,7 @@ body {
         }
 
         .regibtn {
+            margin-top: 1rem;
             .eudpRegBtn {
                 -webkit-border-radius: 24;
                 -moz-border-radius: 24;

@@ -68,7 +68,7 @@ const teamData=[
     },
     {
         detailNo:12,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/teams/jyoti2.png"),
         title: "Jyoti Prakash Sahu",
         desc: "IT (2024)",
     },
@@ -113,13 +113,13 @@ const teamData=[
     },
     {
         detailNo:17,
-        img:require("../../Assets/images/teams/sup.png"),
+        img:require("../../Assets/images/teams/sid.png"),
         title: "SSiddharth Mohanty",
         desc: "CSE (2024)",
     },
     {
         detailNo:20,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/teams/sup.png"),
         title: "Suprasanna Das ",
         desc: "EE (2024)",
     },

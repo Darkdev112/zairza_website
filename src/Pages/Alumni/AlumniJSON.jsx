@@ -19,7 +19,7 @@ const alumniData=[
     },
     {
         detailNo:4,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/alumnis/pratik.png"),
         title: "Pratik Biswal",
         desc: "Batch (2023)",
     },
@@ -76,12 +76,12 @@ const alumniData=[
         desc: "Batch (2023)",
     },{
         detailNo:15,
-        img:require("../../Assets/images/alumnis/Frame 7548.png"),
+        img:require("../../Assets/images/alumnis/Bivab.png"),
         title: "Bivab Ranjan Mishra",
         desc: "Batch (2023)",
     },{
         detailNo:19,
-        img:require("../../Assets/images/alumnis/DeepakPatra (1).jpeg"),
+        img:require("../../Assets/images/alumnis/deepakPatra2.png"),
         title: "Deepak Patra",
         desc: "Batch (2023)",
     },{
@@ -151,7 +151,7 @@ const alumniData=[
         desc: "Batch (2023)",
     },{
         detailNo:29,
-        img:require("../../Assets/images/teams/random.webp"),
+        img:require("../../Assets/images/alumnis/subhakanta.png"),
         title: "Subhakanta Gouda",
         desc: "Batch (2023)",
     },{
